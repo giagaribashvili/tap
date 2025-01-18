@@ -1,0 +1,322 @@
+body, ul, li {
+    margin: 0;
+    list-style: none;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-color: #F2F2F2;
+}
+
+.nav-bar-links{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+
+}
+.colon{
+    color: rgb(52, 228, 145);
+}
+
+.nav-bar-ul li{
+    display: inline-block;
+    padding: 0 5px;
+    transition: transform 200ms;
+}
+
+.nav-bar-ul li:hover{
+    transform: scale(1.1);
+}
+.search{
+    padding: 20px;
+}
+.search-btn{
+    height: 44px;
+    width: 110px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: #1BBC9B;
+    cursor: pointer;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 14px;
+}
+.price-image-container img{
+    height:500px;
+    width:100%;
+    display:block;
+    object-fit: cover;
+    filter: brightness(50%)
+}
+.price-image-container{
+ position: relative;
+}
+.text-over-photo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.travel-safe-card-1{
+    width: 420px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+   }
+
+   .travel-safe-card-1 img{
+       height: 350px;
+       width: 100%;
+       object-fit: cover;
+   }
+   .travel-safe-card-1 span{
+       font-size: 18px;
+   }
+   .seperate-line{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid grey;
+       width: 100%;
+   }
+   
+   .more-info{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 15px;
+       border: 2px solid #1BBC9B;
+       background-color: #1BBC9B;
+       color: white;
+       height: 40px;
+       align-items: center;
+       justify-content: center;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+   }
+   
+   .travel-safe-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Poppins';
+   }
+   
+   .travel-title {
+       margin-top: 9%;
+       text-align: center;
+   }
+   
+   .travel-title h3 {
+       margin: 0; 
+       color: #1BBC9B;
+       font-family: 'Reenie Beanie';
+       font-weight: 500;
+       font-size: 30px;
+   }
+   
+   .travel-title h1 {
+      font-family: 'Poppins';
+       margin: 0; 
+       margin-top: 5px; 
+       font-size: 50px;
+       font-weight: 700;
+   }
+
+   .travel-tours-container{
+    background-color: #F2F2F2;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 50px;
+    font-family: 'Poppins';
+}
+
+
+.location-time{
+    display: flex;
+    gap: 25px;
+}
+
+.sophine-collins{
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  gap: 25px;
+}
+
+.sophine-collins img{
+    border-radius: 50%;
+    width: 100px;
+    object-fit: cover;
+}
+
+   .Adventures-Container{
+    height: 800px;
+    width: 1350px;
+    display: flex;
+    margin: auto;
+   }
+
+   .Adventures-1{
+    height: 799px;
+    width: 675px;
+    flex: 1;
+    
+   }
+
+   .Adventures-1 h6{
+    font-family: 'Reenie Beanie';
+    font-weight: 500;
+    font-size: 30px;
+    color: #1BBC9B;
+   }
+
+   .Adventures-1 h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+   }
+
+   .Adventures-b{
+        border: none;
+        background-color: #1BBC9B;
+        font-family: "Poppins";
+        font-weight: 700;
+        color: white;
+        width: 110px;
+        height: 44px;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.4s;
+   }
+   .Adventures-b:hover{
+    cursor: pointer;
+    background-color: #147e69;
+    }
+
+    .Adventures-2{
+        height: 799px;
+        width: 675px;
+        margin: auto;
+       }
+
+    .Adventures-Top{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        color: #6E6E6E;
+    }
+    .Adventures-Mid{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        color: #6E6E6E;
+        margin-top: 20px;
+    }
+    .Adventures-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .Adventures-btns{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 20px;
+        height: 71px;
+        width: 625px;
+        border: none;
+        border-bottom: 1px solid #D5D8DC;
+        background-color: white;
+        text-align: left;
+        transition: transform 0.5s;
+    }
+    .Adventures-btns:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .footer{
+        height: 474px;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+
+    .footer img{
+        height:500px;
+        width:100%;
+        display:block;
+        object-fit: cover;
+        filter: brightness(50%);
+        position: absolute;
+    }
+
+    .footer-text{
+        position: absolute;
+        color: white;
+        font-size: 50px;
+        font-family: "poppins";
+        font-weight: 100;
+        margin-left: 285px;
+        margin-top: 120px;
+    }
+
+    .footer-address{
+        position: absolute;
+        color: white;
+        font-family: "poppins";
+        font-weight: 700;
+        margin-left: 960px;
+        margin-top: 120px;
+    }
+
+    .footer-address p{
+        font-weight: 400;
+    }
+
+    .footer-contact{
+        position: absolute;
+        color: white;
+        font-family: "poppins";
+        font-weight: 700;
+        margin-left: 1298px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-b{
+        border: none;
+        background-color: #1BBC9B;
+        font-family: "Poppins";
+        font-weight: 700;
+        color: white;
+        width: 180px;
+        height: 44px;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.4s;
+   }
+   .contact-b:hover{
+    cursor: pointer;
+    background-color: #147e69;
+    }
